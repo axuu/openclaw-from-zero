@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Openclaw 小白养龙虾🦞",
+  "name": "OpenClaw🦞从零开始",
   "colors": {
     "primary": "#e21a25",
     "light": "#ff4d4d",
@@ -43,7 +43,7 @@
       "github": "https://github.com/openclaw"
     }
   },
-  "description": "张有菜的 Openclaw 实践记录",
+  "description": "OpenClaw🦞从零开始",
   "seo": {
     "indexing": "all"
   }
