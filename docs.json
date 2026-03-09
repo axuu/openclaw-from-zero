@@ -38,13 +38,24 @@
     "light": "/logo/light.png",
     "dark": "/logo/dark.png"
   },
-  "footer": {
-    "socials": {
-      "github": "https://github.com/openclaw"
-    }
-  },
   "description": "OpenClaw🦞从零开始",
   "seo": {
     "indexing": "all"
+  },
+  "navbar": {
+    "links": []
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/axuu",
+      "x": "https://x.com/caiwithai"
+    }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs",
+    "latex": true
+  },
+  "icons": {
+    "library": "fontawesome"
   }
 }
