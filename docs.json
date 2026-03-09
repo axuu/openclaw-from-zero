@@ -25,6 +25,12 @@
             "pages": [
               "troubleshooting/gateway-not-ready"
             ]
+          },
+          {
+            "group": "每日总结",
+            "pages": [
+              "daily/2026-03-09"
+            ]
           }
         ]
       }
