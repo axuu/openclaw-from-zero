@@ -17,15 +17,6 @@
 
 <!-- DOCS_TOC_END -->
 
-## 本地开发
-
-```bash
-npm i -g mint
-mint dev
-```
-
-访问 `http://localhost:3000` 预览。
-
 ## 贡献
 
 发现文档有误？欢迎提交 PR！
