@@ -1,0 +1,71 @@
+---
+title: "macOS 启动报错 Gateway did not become ready"
+description: "排查 OpenClaw 在 macOS 上启动时报错 Gateway did not become ready 的原因和解决方案"
+---
+
+## 报错信息
+
+```text
+Wizard error
+Gateway did not become ready. Check that it is running.
+```
+
+## 最常见原因
+
+<Warning>
+未安装 openclaw CLI 和 Node.js。OpenClaw macOS App **不再内置 Gateway 运行时**，必须依赖机器上单独安装的 openclaw CLI。
+</Warning>
+
+### 系统要求
+
+- **Node.js 22+**
+- **全局安装 openclaw CLI**
+
+## 排查步骤
+
+<Steps>
+
+### 确认 CLI 和 Node 是否齐全
+
+```bash
+node --version      # 应显示 v22.x.x 或更高
+openclaw --version  # 确认 CLI 已安装
+which openclaw      # 确认 CLI 在 PATH 中
+```
+
+### 如果未安装
+
+```bash
+# 安装 Node.js（推荐使用 nvm）
+nvm install 22
+nvm use 22
+
+# 全局安装 openclaw CLI
+npm install -g openclaw
+```
+
+### 重启 OpenClaw App
+
+安装完成后重启 OpenClaw，Setup Wizard 应能正常拉起 Gateway。
+
+</Steps>
+
+## 技术背景
+
+OpenClaw 在 macOS 上的启动机制：
+
+- macOS App 本身**不内置 Gateway 运行时**
+- 依赖机器上单独安装的 `openclaw` CLI
+- App 通过 launchd 管理每用户的 Gateway 服务
+- 服务 label: `ai.openclaw.gateway`
+- 正常健康状态应显示: `Runtime: running` 和 `RPC probe: ok`
+
+## 验证 Gateway 状态
+
+```bash
+# 检查 launchd 服务状态
+launchctl list | grep openclaw
+
+# 查看服务日志
+log show --predicate 'process == "openclaw"' --last 5m
+```

@@ -1,0 +1,44 @@
+---
+title: "内置 Hooks 说明"
+description: "OpenClaw 四种内置 Hooks 的功能说明、使用场景和启用建议"
+---
+
+## 什么是 Hooks
+
+Hooks 是 OpenClaw 在启动、会话重置、命令执行等时机自动执行的附加动作。
+
+## 四种内置 Hooks
+
+| Hook | 官方说明 | 通俗理解 | 适用场景 |
+|------|---------|---------|---------|
+| **boot-md** | Run BOOT.md on gateway startup | 开机先读一份启动说明 | 想让每次启动都遵守固定规则 |
+| **bootstrap-extra-files** | Inject extra workspace bootstrap files during agent bootstrap | 把工作区里额外规则文件带进上下文 | 有完整 bootstrap 文件体系时 |
+| **command-logger** | Log all command events to a centralized audit file | 记录操作日志 | 想保留操作审计、便于排查 |
+| **session-memory** | Save session context to memory when /new command is issued | 开新会话前自动存档记忆 | 想让 /new 之前自动记住上下文 |
+
+## 相关文件体系
+
+`bootstrap-extra-files` 涉及的文件：
+
+- `AGENTS.md`
+- `SOUL.md`
+- `TOOLS.md`
+- `IDENTITY.md`
+- `USER.md`
+- `HEARTBEAT.md`
+- `BOOTSTRAP.md`
+
+## 启用建议
+
+### 新手首次启动
+
+<Warning>
+建议选 "Skip for now"。这些 hook 不是 Gateway 启动的前提，4 个 hook 同时加载可能影响性能。先把 Gateway 连通，后面再到 `Settings → Skills / Hooks` 里逐个开启。
+</Warning>
+
+### 按需启用
+
+- 想让每次启动都遵守固定规则 → 开 `boot-md`
+- 想保留操作审计 → 开 `command-logger`
+- 想让 `/new` 之前自动记住上下文 → 开 `session-memory`
+- 有完整 workspace/bootstrap 文件体系时 → 考虑 `bootstrap-extra-files`
