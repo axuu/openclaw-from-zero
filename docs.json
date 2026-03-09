@@ -14,21 +14,8 @@
         "tab": "文档",
         "groups": [
           {
-            "group": "实践记录",
-            "pages": [
-              "guides/use-with-obsidian",
-              "guides/use-with-claude-code",
-              "guides/local-dev-workflow"
-            ]
-          },
-          {
             "group": "故障排除",
-            "pages": [
-              "troubleshooting/command-not-found",
-              "troubleshooting/gateway-did-not-become-ready",
-              "troubleshooting/skills-couldnt-load",
-              "troubleshooting/websocket-connection-failed"
-            ]
+            "pages": []
           }
         ]
       }
