@@ -1,0 +1,47 @@
+---
+title: "命令未找到"
+description: "解决 openclaw: command not found 错误"
+---
+
+# 命令未找到 (Command Not Found)
+
+## 问题描述
+
+运行 `openclaw` 命令时出现：
+
+```bash
+openclaw: command not found
+```
+
+## 解决方案
+
+### 方案 1: 检查 PATH
+
+确保 OpenClaw 安装路径在 PATH 中：
+
+```bash
+echo $PATH
+```
+
+### 方案 2: 重新安装
+
+```bash
+curl -fsSL https://get.openclaw.dev | sh
+```
+
+### 方案 3: 手动添加到 PATH
+
+```bash
+# 添加到 ~/.zshrc 或 ~/.bashrc
+export PATH="$HOME/.openclaw/bin:$PATH"
+```
+
+然后重新加载配置：
+
+```bash
+source ~/.zshrc
+```
+
+## 仍有问题？
+
+如果以上方案都无效，请[提交 Issue](https://github.com/openclaw/issues)。
