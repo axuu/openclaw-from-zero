@@ -1,0 +1,48 @@
+---
+title: "最适合龙虾（以及其他虾）的模型排名"
+description: "PinchBench — 开源 LLM Agent 基准测试平台，对比各模型在编码任务上的实际表现"
+---
+
+## PinchBench 是什么
+
+[PinchBench](https://pinchbench.com/) 是一个开源的 LLM Agent 基准测试平台，专门测试 AI 模型在标准化编码任务上的实际表现。通过自动化检查和 LLM 评判打分，给出各模型的排名。
+
+任务和评分标准全部开源，可在 GitHub 上查看和验证。
+
+## 排名维度
+
+| 指标 | 含义 |
+|------|------|
+| Success Rate | 任务完成成功率 |
+| Avg Execution Time | 平均执行时间（秒） |
+| Cost per Run | 单次运行成本（美元） |
+| Value Score | 性价比（性能 / 成本） |
+| Avg Score % | LLM 评判的结果质量分 |
+
+## 当前排名概况
+
+截至收录时，平台追踪 33 个模型，共 105 次基准测试运行。
+
+排名靠前的模型（按成功率）：
+
+- **Claude Opus 4.6** — 82.5% 成功率
+- 覆盖 Anthropic、OpenAI、Google、Qwen、DeepSeek、Mistral 等厂商
+
+<Note>
+排名会随版本更新变化，以官网实时数据为准。官方注明：This leaderboard is for entertainment purposes only.
+</Note>
+
+## 对龙虾用户的参考价值
+
+选模型时可以参考这个排名：
+
+- **追求效果** → 看 Success Rate 和 Avg Score
+- **控制成本** → 看 Cost per Run 和 Value Score
+- **需要速度** → 看 Avg Execution Time
+
+平台支持按预算过滤，方便找到性价比最优的模型。
+
+## 链接
+
+- 官网：[pinchbench.com](https://pinchbench.com/)
+- GitHub：[pinchbench/skill](https://github.com/pinchbench/skill)（任务和评分标准）

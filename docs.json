@@ -15,7 +15,29 @@
         "groups": [
           {
             "group": "实践记录",
-            "pages": []
+            "pages": [
+              "guides/builtin-hooks",
+              "guides/cli-cheatsheet"
+            ]
+          },
+          {
+            "group": "故障排查",
+            "pages": [
+              "troubleshooting/gateway-not-ready"
+            ]
+          },
+          {
+            "group": "碎片收录",
+            "pages": [
+              "bits/index",
+              "bits/pinchbench"
+            ]
+          },
+          {
+            "group": "每日总结",
+            "pages": [
+              "daily/2026-03-09"
+            ]
           }
         ]
       }
