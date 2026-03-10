@@ -15,6 +15,11 @@
 
 - [macOS 启动报错 Gateway did not become ready](https://openclaw.magua.app/troubleshooting/gateway-not-ready) — 排查 OpenClaw 在 macOS 上启动时报错 Gateway did not become ready 的原因和解决方案
 
+### 碎片收录
+
+- [碎片收录](https://openclaw.magua.app/bits/index) — 随手记录的工具、资源、观察和灵感碎片
+- [最适合龙虾（以及其他虾）的模型排名](https://openclaw.magua.app/bits/pinchbench) — PinchBench — 开源 LLM Agent 基准测试平台，对比各模型在编码任务上的实际表现
+
 ### 每日总结
 
 - [3月9日：旧 MacBook 部署龙虾 + 文档站上线](https://openclaw.magua.app/daily/2026-03-09) — 用 2019 款 MacBook 部署 OpenClaw，搭建 Mintlify 文档站，以及对龙虾生态的观察
