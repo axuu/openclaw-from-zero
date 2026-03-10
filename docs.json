@@ -27,6 +27,13 @@
             ]
           },
           {
+            "group": "碎片收录",
+            "pages": [
+              "bits/index",
+              "bits/pinchbench"
+            ]
+          },
+          {
             "group": "每日总结",
             "pages": [
               "daily/2026-03-09"
