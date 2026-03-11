@@ -14,16 +14,16 @@
         "tab": "文档",
         "groups": [
           {
-            "group": "实践记录",
+            "group": "核心概念",
             "pages": [
               "guides/builtin-hooks",
               "guides/cli-cheatsheet"
             ]
           },
           {
-            "group": "故障排查",
+            "group": "观点与思考",
             "pages": [
-              "troubleshooting/gateway-not-ready"
+              "perspectives/why-not-rush-openclaw"
             ]
           },
           {
@@ -31,6 +31,12 @@
             "pages": [
               "bits/pinchbench",
               "bits/openclaw-platforms"
+            ]
+          },
+          {
+            "group": "故障排查",
+            "pages": [
+              "troubleshooting/gateway-not-ready"
             ]
           },
           {
