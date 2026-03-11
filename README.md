@@ -13,7 +13,7 @@
 
 ### 观点与思考
 
-- [为什么我不建议你急着用 OpenClaw](https://openclaw.magua.app/perspectives/why-not-rush-openclaw) — 龙虾玩家入门须知：95% 的人用 OpenClaw 就是在浪费时间，先沉淀底层资产比急着养龙虾更重要
+- [为什么我不建议你用 OpenClaw](https://openclaw.magua.app/perspectives/why-not-rush-openclaw) — 龙虾玩家入门须知：95% 的人用 OpenClaw 就是在浪费时间，先沉淀底层资产比急着养龙虾更重要
 
 ### 碎片收录
 
