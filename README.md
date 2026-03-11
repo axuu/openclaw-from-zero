@@ -17,7 +17,6 @@
 
 ### 碎片收录
 
-- [碎片收录](https://openclaw.magua.app/bits/index) — 随手记录的工具、资源、观察和灵感碎片
 - [最适合龙虾（以及其他虾）的模型排名](https://openclaw.magua.app/bits/pinchbench) — PinchBench — 开源 LLM Agent 基准测试平台，对比各模型在编码任务上的实际表现
 - [国产龙虾平替](https://openclaw.magua.app/bits/openclaw-platforms) — 5 个国内大厂推出的类 OpenClaw 产品对比：QClaw、AutoClaw、EasyClaw、ArkClaw、WorkBuddy
 

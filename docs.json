@@ -29,7 +29,6 @@
           {
             "group": "碎片收录",
             "pages": [
-              "bits/index",
               "bits/pinchbench",
               "bits/openclaw-platforms"
             ]
