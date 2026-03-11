@@ -30,13 +30,15 @@
             "group": "碎片收录",
             "pages": [
               "bits/index",
-              "bits/pinchbench"
+              "bits/pinchbench",
+              "bits/openclaw-platforms"
             ]
           },
           {
             "group": "每日总结",
             "pages": [
-              "daily/2026-03-09"
+              "daily/2026-03-09",
+              "daily/2026-03-10"
             ]
           }
         ]
