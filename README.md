@@ -6,19 +6,23 @@
 
 <!-- DOCS_TOC_START -->
 
-### 实践记录
+### 核心概念
 
 - [内置 Hooks 说明](https://openclaw.magua.app/guides/builtin-hooks) — OpenClaw 四种内置 Hooks 的功能说明、使用场景和启用建议
 - [CLI 命令速查表](https://openclaw.magua.app/guides/cli-cheatsheet) — OpenClaw CLI 完整命令列表，按功能分类整理并附带中文说明
 
-### 故障排查
+### 观点与思考
 
-- [macOS 启动报错 Gateway did not become ready](https://openclaw.magua.app/troubleshooting/gateway-not-ready) — 排查 OpenClaw 在 macOS 上启动时报错 Gateway did not become ready 的原因和解决方案
+- [为什么我不建议你急着用 OpenClaw](https://openclaw.magua.app/perspectives/why-not-rush-openclaw) — 龙虾玩家入门须知：95% 的人用 OpenClaw 就是在浪费时间，先沉淀底层资产比急着养龙虾更重要
 
 ### 碎片收录
 
 - [最适合龙虾（以及其他虾）的模型排名](https://openclaw.magua.app/bits/pinchbench) — PinchBench — 开源 LLM Agent 基准测试平台，对比各模型在编码任务上的实际表现
 - [国产龙虾平替](https://openclaw.magua.app/bits/openclaw-platforms) — 5 个国内大厂推出的类 OpenClaw 产品对比：QClaw、AutoClaw、EasyClaw、ArkClaw、WorkBuddy
+
+### 故障排查
+
+- [macOS 启动报错 Gateway did not become ready](https://openclaw.magua.app/troubleshooting/gateway-not-ready) — 排查 OpenClaw 在 macOS 上启动时报错 Gateway did not become ready 的原因和解决方案
 
 ### 每日总结
 
